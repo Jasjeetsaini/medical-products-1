@@ -1,0 +1,212 @@
+<html>
+<head>
+<style>
+header{
+background-color: #f2f2f2;
+padding:20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+div {
+    display: block;
+}
+#wrapper {
+
+   align:center;
+    width: 1800px;
+    height:800px;
+}
+
+#first {
+    float:left;
+    width: 18%;
+    height: 100%;
+    background: white;
+}
+
+#second {
+    float:left;
+    width: 37%;
+    height: 5%;
+    background: blue;
+}
+
+#third {
+    float:left;
+    width: 82%;
+    height: 100%;
+    background: gray;
+}
+div#box{ width:1005px; margin:0px auto; overflow:auto;padding:10px 0px; background:url(20170211_170810.jpg) no-repeat 200px 30px;height:auto!important; height:300px; min-height:300px;text-decoration:none;}
+#left{ width:200px; float:left;text-decoration:none;}
+#left .column{ height:35px; line-height:35px; width:245px;  font-size:18px; padding-left:55px;  color:#fff; background:#4658A2 url(../images/icon.png) no-repeat left center;text-decoration:none}
+#left ul{ padding:10px 0px; margin:0px;text-decoration:none;}
+#left ul li{ width:285px; float:left; border-bottom:1px solid #ddd;  line-height:30px; background:url(../images/icon1.png) no-repeat left 10px; padding-left:15px;text-decoration:none;}
+#left ul li a:hover{ font-weight:bold;text-decoration:none;}
+
+
+
+header{
+background-color: #f0f0f5;
+padding:20px;
+}
+</style>
+</head>
+<body>
+<header>
+<table width="80%">
+<tr>
+<td rowspan="2"><img src="new.png" width="120px" height="120px" ></td>
+</tr>
+<tr>
+<td color="blue" align="center"><h1>BROTHERS HEALTH CARE</h1></td>
+</tr>
+</table>
+</header>
+<div class="topnav">
+  <a  href="home.html">Home</a>
+  <a  class="active" href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a  href="enquiry.html">Enquiry</a>
+</div>
+
+<div id="wrapper" >
+   <div id="first">
+   <div id="box">
+<div id="left">
+	<div class="column">Products</div>
+    <ul><li><a href="">SPO2 Sensor</a></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="products1-1.html">Disposable Spo2 sensor</a></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="product1-2.html">Reusable Spo2 sensor</a></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Spo2 entension cable</a></li>
+<li><a href="product2.html">ECG Patient Cable</a></li>
+<li><a href="product3.html">ECG Monitor Cable</a></li>
+<li><a href="product4.html">NIBP Cuff</a></li>
+<li><a href="product5.html">Finger Pulse Oximeter</a></li>
+<li><a href="product6.html">NIBP Hose</a></li>
+<li><a href="">ECG Electrodes, Clamps, ECG Jelly</a></li>
+<li><a href="">ECG Roll</a></li>
+<li><a href="">Mask</a></li>
+<li><a href="">Temperature Probe</a></li>
+<li><a href="">Cautery Handswitch</a></li>
+<li><a href="">Oxygen o2 cells</a></li>
+<li><a href="">Biploar forceps</a></li>
+<li><a href="">Batteries</a></li>
+<li><a href="">IBP cable and kit</a></li>
+<li><a href="products16.html">Ambu Bag</a></li>
+<li><a href="">Vein Trace</a></li>
+<li><a href="products18.html">Fetal Doppler</a></li>
+<li><a href="products19.html">Handheld Pulse Oximeter</a></li>
+<li><a href="">Tabletop Pulse Oximeter</a></li>
+</ul>
+    </div></div></div>
+    <div id="third">
+      <br>
+      <br>
+     
+        <table width="50%" >
+      <tr>
+     
+      <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Adult finger clip type Envitec Shell.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="red" align="left">Adult finger clip type Envitec Shell</td>
+  </tr>
+    <tr>
+    
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="adult finger clip type Nellcor Shell.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="blue" align="left">Adult finger clip type Nellcor Shell</td>
+  </tr>
+  
+  
+    <tr>
+   
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="adult soft rubber type.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+  
+  <td color="blue" align="left">Adult soft rubber type</td>
+  </tr>
+  
+    <tr>
+    
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Fixed Neonate wrap type.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="blue" align="left">Fixed Neonate wrap type</td>
+  </tr>
+ 
+    <tr>
+   
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Multisite Open Y type with ear clip.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="blue" align="left">Multisite Open Y type with ear clip</td>
+  </tr>
+    <tr>
+   
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Peaditric clip type.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="blue" align="left">Peaditric clip type</td>
+  </tr>
+    <tr>
+   
+    <td rowspan="2">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="Peaditric Soft rubber type.jpg" width="150px" height="100px"></td>
+  </tr>
+  <tr>
+ 
+  <td color="blue" align="left">Peaditric Soft rubber type</td>
+  </tr>
+   
+  
+  
+  
+  </table>
+   </div>
+   </div>
+</body>
+</html>

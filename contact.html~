@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header{
+background-color: #f2f2f2;
+padding:20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+   
+   
+</style>
+</head>
+<body>
+<header>
+<table width="80%">
+<tr>
+<td rowspan="2"><img src="new.png" width="120px" height="120px" ></td>
+</tr>
+<tr>
+<td color="blue" align="center"><h1>BROTHERS HEALTH CARE</h1></td>
+</tr>
+</table>
+</header>
+<div class="topnav">
+  <a  href="home.html">Home</a>
+  <a href="products.html">Products</a>
+  <a  class="active" href="contact.html">Contact</a>
+  <a href="enquiry.html">Enquiry</a>
+</div>
+<img src="contact.png" width="100%" height="52%">
+<center><p><h2>Contact Us</h2>
+
+<table>
+<tr><td>
+Name: Sonu Sharma</td>
+</tr>
+<tr>
+<td>Address: Goregaon,india</td></tr>
+<tr><td>Contacts: Shawn</td></tr>
+<tr><td>Tel: 0755 -28101223</td></tr>
+<tr><td>Fax:0755 -27186486</td></tr>
+<tr><td>E-mail:cm001@szcaremed.com</td></tr>
+
+ <tr><td>Office: health Technology Limited</td></tr>
+</p>
+</body>
+</html>

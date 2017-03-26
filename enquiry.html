@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.form-submit-button {
+
+background: #B9DFFF;
+
+color: #fff;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+}
+
+.form-submit-button:hover {
+
+background: #016ABC;
+
+color: #fff;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+}
+
+.button {
+    background-color:#339933; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+border: 1px solid #eee;
+    display: inline-block;
+border-radius: 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+header{
+background-color: #f2f2f2;
+padding:20px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+   
+</style>
+<script src="en.js">
+</script>
+</head>
+<body>
+<header>
+<table width="80%">
+<tr>
+<td rowspan="2"><img src="new.png" width="120px" height="120px" ></td>
+</tr>
+<tr>
+<td color="blue" align="center"><h1>BROTHERS HEALTH CARE</h1></td>
+</tr>
+</table>
+</header>
+<div class="topnav">
+  <a  href="home.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a class="active" href="enquiry.php">Enquiry</a>
+</div>
+<br><br>
+<form name="form" action="enq.php" method="post" onsubmit="return asd()">
+Full Name :
+<input type="text" name="name" placeholder="Enter Name" id="na"><br><br>
+Contact :
+<input type="tel" name="contact" placeholder="Enter Phone No." maxlength=10 id="ca" onkeyup="limit(this,10);"><br><br>
+Email ID : 
+
+<input type="email" id="e1" name="emailid" placeholder="Enter Email"><br><br>
+Company Name / Hospital Name :
+<input type="text" name="companyname" id="comp1" placeholder="Enter Company/Hospital Name"><br><br>
+Address : 
+
+<textarea cols="60" rows="3" name="address" id="add1" placeholder="Enter your address"></textarea><br><br>
+
+Pincode :
+
+<input type="number" name="pincode" id="pin" maxlength=6 placeholder="Enter Pincode" ><br><br>
+
+Product :
+<input type="text" name="productname" id="pname" placeholder="Enter Product Nmae"><br><br>
+
+
+Quantity :
+<input type="number" name="productquantity" id="q1"><br><br>
+
+Description : 
+
+<textarea cols="60" rows="3" placeholder="Write Your description Here..." name="query" id="qu1"></textarea><br><br>
+<center><button class="button" style="vertical-align:middle"><span>SUBMIT</span></button>
+</form>
+</body>
+</html>
+
+
